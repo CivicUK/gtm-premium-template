@@ -3,3 +3,5 @@ documentation: "https://cookiecontrol.com/docs/premium"
 versions:
   - sha: b427d2570164a67cb5043b8817a3bd2133f83da9
     changeNotes: Initial release
+  - sha: f3dcec1df95002ce025df0cf3bcf36bde9da4393
+    changeNotes: Template update for Google Gallery
