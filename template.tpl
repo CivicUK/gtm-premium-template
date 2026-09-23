@@ -40,7 +40,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "valueValidators": [
       {
-        "errorMessage": "You must provide your apiKey",
+        "errorMessage": "You must provide your API key",
         "type": "NON_EMPTY"
       }
     ],
@@ -53,7 +53,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "valueValidators": [
       {
-        "errorMessage": "You must provide your domainKey",
+        "errorMessage": "You must provide your domain key",
         "type": "NON_EMPTY"
       }
     ],
