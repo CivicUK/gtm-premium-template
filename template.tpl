@@ -47,7 +47,7 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "API key",
     "simpleValueType": true,
     "name": "apiKey",
-    "type": "TEXT"
+    "type": "TEXT",
     "help": "Enter the Cookie Control API key found within the Cookie Control user area."
   },
   {
@@ -60,8 +60,8 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Domain key",
     "simpleValueType": true,
     "name": "domainKey",
-    "type": "TEXT"
-    "help": "Enter the domain key for this website found within the Cookie Control user area.
+    "type": "TEXT",
+    "help": "Enter the domain key for this website found within the Cookie Control user area."
   }
 ]
 
