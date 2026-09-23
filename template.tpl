@@ -1,13 +1,21 @@
+___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+
 ___INFO___
 
 {
-  "displayName": "Cookie Control Premium Template",
-  "description": "Cookie Control is the popular consent management tool trusted by the UK ICO and many more.",
+  "displayName": "Civic Cookie Control Premium",
+  "description": "Integrate Civic Cookie Control Premium with Google Tag Manager and configure Google Consent Mode for your website.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "categories": [
-    "PERSONALIZATION",
-    "TAG_MANAGEMENT"
+    "TAG_MANAGEMENT",
+    "UTILITY"
   ],
   "type": "TAG",
   "version": 1,
@@ -33,26 +41,28 @@ ___TEMPLATE_PARAMETERS___
   {
     "valueValidators": [
       {
-        "errorMessage": "You must provide your apiKey",
+        "errorMessage": "You must provide your API key",
         "type": "NON_EMPTY"
       }
     ],
-    "displayName": "apiKey",
+    "displayName": "API key",
     "simpleValueType": true,
     "name": "apiKey",
-    "type": "TEXT"
+    "type": "TEXT",
+    "help": "Enter the Cookie Control API key found within the Cookie Control user area."
   },
   {
     "valueValidators": [
       {
-        "errorMessage": "You must provide your domainKey",
+        "errorMessage": "You must provide your domain key",
         "type": "NON_EMPTY"
       }
     ],
-    "displayName": "domainKey",
+    "displayName": "Domain key",
     "simpleValueType": true,
     "name": "domainKey",
-    "type": "TEXT"
+    "type": "TEXT",
+    "help": "Enter the domain key for this website found within the Cookie Control user area."
   }
 ]
 
@@ -459,6 +469,8 @@ scenarios:
 
 ___NOTES___
 
-1.0.0 - 18-08-2026
+1.0.0 - 22-09-2026
 ==================
-* Initial release
+* Initial release of the Civic Cookie Control Premium GTM template.
+* Adds Google Consent Mode default consent configuration.
+* Loads Cookie Control Premium from the Civic CDN.
