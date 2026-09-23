@@ -1,7 +1,7 @@
 homepage: "https://cookiecontrol.com/"
 documentation: "https://cookiecontrol.com/docs/premium"
 versions:
-  -sha: f3dcec1df95002ce025df0cf3bcf36bde9da4393
+  -sha: 5e05c561143fe5684bfd6a40e815668d62c47a96
     changeNotes: Template update for Google Gallery approval
   - sha: f3dcec1df95002ce025df0cf3bcf36bde9da4393
     changeNotes: Template update for Google Gallery
