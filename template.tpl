@@ -75,6 +75,7 @@ gtagSet('developer_id.dMDAwNW', true);
 const makeNumber = require('makeNumber');
 const setDefaultConsentState = require('setDefaultConsentState');
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
 
 // set default consent
 setDefaultConsentState({
@@ -94,8 +95,14 @@ const onSuccess = () => {
 const onFailure = () => {
     data.gtmOnFailure();
   };
+
+const scriptUrl =
+  'https://cc.cdn.civiccomputing.com/10/CookieControl-v10.x.min.js' +
+  '?id=' + encodeUriComponent(data.apiKey) +
+  '&dk=' + encodeUriComponent(data.domainKey);
+
 injectScript(
-  'https://cc.cdn.civiccomputing.com/10/CookieControl-v10.x.min.js?id='+data.apiKey+'&dk='+data.domainKey,
+  scriptUrl,
   onSuccess,
   onFailure
 );
